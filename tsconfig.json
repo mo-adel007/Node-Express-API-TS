@@ -1,0 +1,24 @@
+{
+    // Compiler options for TypeScript
+    "compilerOptions": {
+        // Specifies the module system for the compiled JavaScript code (Node.js with support for ECMAScript modules)
+        "module": "NodeNext",
+        
+        // Specifies how TypeScript resolves module names
+        "moduleResolution": "Node",
+        // Base directory to resolve non-relative module names
+        "baseUrl": "src",
+        
+        // Output directory for compiled JavaScript files
+        "outDir": "dist",
+        
+        // Indicates whether to generate source maps for the compiled JavaScript files
+        "sourceMap": false,
+        
+        // Disallows implicit any types in TypeScript code
+        "noImplicitAny": true
+    },
+    
+    // Specifies which files to include in the compilation process
+    "include": ["src/**/*"]
+}
